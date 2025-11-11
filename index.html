@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desvie dos socos no The Monica Club</title>
+  <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/borboleta.png" type="image/x-icon"> 
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Desvie dos socos no The Monica Club</h1>
+  <p>Use a barra para ajustar a velocidade. Clique em "Iniciar Jogo" para começar!</p>
+
+  <div id="game">
+    <div id="scoreBoard">
+      Tempo: <span id="time">0</span>s | Pontos: <span id="score">0</span> | Recorde: <span id="record">0</span>
+    </div>
+    <div id="dino"></div>
+    <div id="cactus"></div>
+  </div>
+
+  <div id="status"></div>
+
+  <div class="controls">
+    <div class="speed-control">
+      <label for="speedRange">Velocidade do jogo:</label>
+      <input type="range" id="speedRange" min="1" max="10" value="5">
+    </div>
+
+    <div class="buttons">
+      <button id="startButton">Iniciar Jogo</button>
+      <button id="jumpButton">Pular</button>
+      <button id="duckButton">Abaixar</button>
+    </div>
+  </div>
+
+  <footer>
+    Todos os designs e personagens são de direitos autorais de <b>Ordem Paranormal</b> e seus artistas.  
+    <br>Este jogo é apenas uma brincadeira de fãs, sem fins lucrativos.
+    <br><b>@hyped_lia (twitter)</b>
+  </footer>
+</body>
+</html>
